@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #1e7e34;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.role-manufacturer {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.role-distributor {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.role-retailer {
+  background-color: #e8f5e8;
+  color: #388e3c;
+}
+
+.role-pharmacy {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.status-verified {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.status-invalid {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.qr-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.transfer-history {
+  margin-top: 20px;
+}
+
+.transfer-record {
+  border-left: 3px solid #007bff;
+  padding-left: 15px;
+  margin: 10px 0;
+}
+
+.navbar {
+  background-color: #343a40;
+  color: white;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.navbar h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+.navbar .user-info {
+  float: right;
+  margin-top: 5px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.dashboard-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.dashboard-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.dashboard-card .number {
+  font-size: 2em;
+  font-weight: bold;
+  color: #007bff;
+  margin: 10px 0;
+}
